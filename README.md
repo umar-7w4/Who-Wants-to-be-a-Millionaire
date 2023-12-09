@@ -36,10 +36,6 @@ Welcome to the "Who Wants to Be a Millionaire" PHP web application. This project
 - **Leaderboard**: High scores are tracked and displayed.
 - **Responsive Design**: Compatible across multiple devices and screen sizes.
 
-## Contributing
-
-We welcome contributions. Please adhere to standard coding practices and submit pull requests for new features or bug fixes.
-
 ## License
 
 This project is licensed under the @2023 Umar Mohammad
