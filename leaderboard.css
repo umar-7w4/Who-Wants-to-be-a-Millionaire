@@ -1,0 +1,98 @@
+#container {
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+th,
+td {
+    margin: 0;
+    padding: .5em 1.5em;
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    border: 0;
+
+}
+
+.row:nth-child(even) {
+    background: #99ccff;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+}
+
+.row:nth-child(odd) {
+    background: #e6e6e6;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: "Monospace";
+    text-align: center;
+    font-size: 32pt;
+    font-style: italic;
+}
+
+body {
+    width: 100%;
+    background-image: url("leaderboard.png");
+    background-repeat: repeat;
+    color: yellow;
+    background-size: 100% 120%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    font-size: 28px;
+    padding: 20px;
+    width: 180px;
+    height: 70px;
+    cursor: pointer;
+    border-color: gold;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: black;
+    transition: 0.5s;
+}
+
+.utButtons {
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    font-family: "Monospace";
+    text-align: center;
+    font-size: 32pt;
+    font-style: italic;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    background-color: #ffd700;
+    color: black;
+    transition: 0.5s;
+}
